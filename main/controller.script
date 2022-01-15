@@ -1,0 +1,10 @@
+
+
+
+
+function init(self)
+
+	id = msg.url("#map_factory")
+
+	factory.create(id, vmath.vector3(500, 0, 0))
+end
